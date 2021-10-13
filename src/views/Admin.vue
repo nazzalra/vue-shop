@@ -54,16 +54,16 @@
                 <span>Menu</span>
               </li>
               <li>
-                <router-link to="overview">
+                <router-link to="/admin/overview">
                   <i class="fas fa-chart-line"></i>
                   <span class="menu-text">Overview</span>
                 </router-link>
               </li>
               <li>
-                <a href="#">
+                <router-link to="/admin/products">
                   <i class="fab fa-amazon"></i>
                   <span class="menu-text">Products</span>
-                </a>
+                </router-link>
               </li>
               <li>
                 <a href="#">
