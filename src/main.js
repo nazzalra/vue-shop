@@ -6,8 +6,12 @@ import "@popperjs/core";
 import "bootstrap";
 import "@/assets/app.scss";
 
+// import component
+import Navbar from "@/components/Navbar";
+
 window.$ = window.jQuery = jQuery;
 Vue.config.productionTip = false;
+Vue.component( 'Navbar', Navbar );
 
 new Vue( {
   router,
