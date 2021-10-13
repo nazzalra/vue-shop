@@ -1,6 +1,16 @@
 <template>
   <div class="overview">
-    <div class="container">this is overview nested page</div>
+    <div class="container">
+      <div class="row justify-content-md-center align-items-md-center">
+        <div class="col-md-6">
+          <h3>Overview Page</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, odit.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="/img/svg/overview.svg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
