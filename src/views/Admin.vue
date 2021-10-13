@@ -54,10 +54,10 @@
                 <span>Menu</span>
               </li>
               <li>
-                <a href="#">
+                <router-link to="overview">
                   <i class="fas fa-chart-line"></i>
                   <span class="menu-text">Overview</span>
-                </a>
+                </router-link>
               </li>
               <li>
                 <a href="#">
@@ -84,18 +84,7 @@
       </nav>
       <!-- page-content  -->
       <main class="page-content pt-2">
-        <div id="overlay" class="overlay"></div>
-        <div class="container-fluid p-5">
-          <div class="row">
-            <div class="form-group col-md-12">
-              <h2>Pro Sidebar</h2>
-              <p>
-                This is a responsive sidebar template with dropdown menu based on bootstrap
-                framework.
-              </p>
-            </div>
-          </div>
-        </div>
+        <router-view />
       </main>
       <!-- page-content" -->
     </div>
